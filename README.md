@@ -1,8 +1,7 @@
-Aplikasi PPDB MA Darul Fithrah
-Aplikasi berbasis PHP dan MySQL untuk mengelola proses Penerimaan Peserta Didik Baru (PPDB) secara online di MA Darul Fithrah.
-Sistem ini memungkinkan calon siswa melakukan pendaftaran secara online serta memudahkan admin sekolah dalam mengelola data pendaftar, data siswa, laporan, dan arsip data.
-Struktur Proyek
-.
+# Aplikasi PPDB MA Darul Fithrah
+Aplikasi berbasis PHP dan MySQL untuk mengelola proses Penerimaan Peserta Didik Baru (PPDB) secara online di MA Darul Fithrah. Sistem ini memungkinkan calon siswa melakukan pendaftaran secara online serta memudahkan admin sekolah dalam mengelola data pendaftar, data siswa, laporan, dan arsip data. Struktur Proyek
+
+# Stuktur Proyek
 ├── index.php                     # Halaman utama website
 ├── ma_darul_fithrah/
 │
