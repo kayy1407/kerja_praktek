@@ -37,7 +37,8 @@ Aplikasi berbasis PHP dan MySQL untuk mengelola proses Penerimaan Peserta Didik 
 │   └── js/                       # JavaScript
 │
 └── koneksi.php                   # Koneksi database MySQL
-Setup
+
+# Setup
 1. Install Web Server
    - Gunakan XAMPP
    - Pastikan sudah tersedia PHP, MySQL, phpMyAdmin
@@ -59,7 +60,7 @@ Setup
    - Letakkan folder proyek di: htdocs (XAMPP)
    - Jalankan browser dan akses: http://localhost/ma_darul_fithrah
   
-Fitur
+# Fitur
 Untuk Pengunjung
 ✅ Informasi sekolah
 ✅ Informasi program pendidikan
@@ -67,7 +68,7 @@ Untuk Pengunjung
 ✅ Pendaftaran siswa baru online
 ✅ Cek status kelulusan
 
-Untuk Admin
+# Admin
 ✅ Login admin
 ✅ Dashboard statistik pendaftar
 ✅ Manajemen data pendaftar
@@ -79,7 +80,7 @@ Untuk Admin
 ✅ Arsip data PPDB
 ✅ Ganti password admin
 
-Teknologi
+# Teknologi
 PHP Native
 MySQL Database
 HTML
