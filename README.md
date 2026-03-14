@@ -1,42 +1,44 @@
 # Aplikasi PPDB MA Darul Fithrah
 Aplikasi berbasis PHP dan MySQL untuk mengelola proses Penerimaan Peserta Didik Baru (PPDB) secara online di MA Darul Fithrah. Sistem ini memungkinkan calon siswa melakukan pendaftaran secara online serta memudahkan admin sekolah dalam mengelola data pendaftar, data siswa, laporan, dan arsip data. Struktur Proyek
 
-# Stuktur Proyek
-├── index.php                     # Halaman utama website
-├── ma_darul_fithrah/
+## Struktur Proyek
+
+```
+.
+├── index.php                 # Halaman utama website
+├── admin/
+│   ├── login.php             # Login admin
+│   ├── logout.php            # Logout admin
+│   ├── dashboard.php         # Dashboard admin
+│   ├── data-pendaftar.php    # Data calon siswa
+│   ├── data-siswa.php        # Data siswa diterima
+│   ├── detail-pendaftar.php  # Detail pendaftar
+│   ├── detail-siswa.php      # Detail siswa
+│   ├── edit-siswa.php        # Edit data siswa
+│   ├── status-penerimaan.php # Status kelulusan siswa
+│   ├── laporan.php           # Laporan data siswa
+│   ├── cetak-laporan.php     # Cetak laporan
+│   ├── cetak-status.php      # Cetak status penerimaan
+│   ├── arsip-data.php        # Arsip data PPDB
+│   ├── detail-arsip.php      # Detail arsip
+│   ├── ganti-password.php    # Ganti password admin
+│   ├── proses.php            # Proses CRUD data
+│   └── ajax.php              # Proses AJAX
 │
-├── admin/                        # Halaman khusus admin
-│   ├── login.php                 # Login admin
-│   ├── logout.php                # Logout admin
-│   ├── dashboard.php             # Dashboard admin
-│   ├── data-pendaftar.php        # Data calon siswa
-│   ├── data-siswa.php            # Data siswa diterima
-│   ├── detail-pendaftar.php      # Detail pendaftar
-│   ├── detail-siswa.php          # Detail siswa
-│   ├── edit-siswa.php            # Edit data siswa
-│   ├── status-penerimaan.php     # Status kelulusan siswa
-│   ├── laporan.php               # Laporan data siswa
-│   ├── cetak-laporan.php         # Cetak laporan
-│   ├── cetak-status.php          # Cetak status penerimaan
-│   ├── arsip-data.php            # Arsip data PPDB
-│   ├── detail-arsip.php          # Detail arsip
-│   ├── ganti-password.php        # Ganti password admin
-│   ├── proses.php                # Proses CRUD data
-│   └── ajax.php                  # Proses AJAX
+├── public/
+│   ├── about.php             # Halaman tentang sekolah
+│   ├── program.php           # Program pendidikan
+│   ├── facilities.php        # Fasilitas sekolah
+│   ├── pendaftaran.php       # Form pendaftaran siswa
+│   └── kelulusan.php         # Cek status kelulusan
 │
-├── public/                       # Halaman yang dapat diakses pengunjung
-│   ├── about.php                 # Halaman tentang sekolah
-│   ├── program.php               # Program pendidikan
-│   ├── facilities.php            # Fasilitas sekolah
-│   ├── pendaftaran.php           # Form pendaftaran siswa
-│   └── kelulusan.php             # Cek status kelulusan
+├── assets/
+│   ├── css/                  # File stylesheet
+│   ├── img/                  # Gambar
+│   └── js/                   # JavaScript
 │
-├── assets/                       # File statis
-│   ├── css/                      # File stylesheet
-│   ├── img/                      # Gambar
-│   └── js/                       # JavaScript
-│
-└── koneksi.php                   # Koneksi database MySQL
+└── koneksi.php               # Koneksi database
+```
 
 # Setup
 1. Install Web Server
