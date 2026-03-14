@@ -52,9 +52,13 @@ Aplikasi berbasis PHP dan MySQL untuk mengelola proses Penerimaan Peserta Didik 
    - Import file database .sql
 3. Konfigurasi Database
    - Buka file koneksi.php
+     
      $host = "localhost";
+     
      $user = "root";
+     
      $password = "";
+     
      $database = "ppdb_darul_fithrah";
 
      $conn = mysqli_connect($host, $user, $password, $database);
