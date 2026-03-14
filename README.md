@@ -62,28 +62,28 @@ Aplikasi berbasis PHP dan MySQL untuk mengelola proses Penerimaan Peserta Didik 
   
 # Fitur
 Untuk Pengunjung
-✅ Informasi sekolah
-✅ Informasi program pendidikan
-✅ Informasi fasilitas sekolah
-✅ Pendaftaran siswa baru online
-✅ Cek status kelulusan
+- ✅ Informasi sekolah
+- ✅ Informasi program pendidikan
+- ✅ Informasi fasilitas sekolah
+- ✅ Pendaftaran siswa baru online
+- ✅ Cek status kelulusan
 
 # Admin
-✅ Login admin
-✅ Dashboard statistik pendaftar
-✅ Manajemen data pendaftar
-✅ Manajemen data siswa diterima
-✅ Edit data siswa
-✅ Penentuan status penerimaan
-✅ Laporan data siswa
-✅ Cetak laporan
-✅ Arsip data PPDB
-✅ Ganti password admin
+- ✅ Login admin
+- ✅ Dashboard statistik pendaftar
+- ✅ Manajemen data pendaftar
+- ✅ Manajemen data siswa diterima
+- ✅ Edit data siswa
+- ✅ Penentuan status penerimaan
+- ✅ Laporan data siswa
+- ✅ Cetak laporan
+- ✅ Arsip data PPDB
+- ✅ Ganti password admin
 
 # Teknologi
-PHP Native
-MySQL Database
-HTML
-CSS
-JavaScript
-AJAX
+- PHP Native
+- MySQL Database
+- HTML
+- CSS
+- JavaScript
+- AJAX
